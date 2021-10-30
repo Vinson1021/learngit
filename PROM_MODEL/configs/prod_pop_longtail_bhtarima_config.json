@@ -1,0 +1,17 @@
+{
+ "label_start_date" : "20210220",
+ "pred_len":          1 ,
+ "pred_round_number": 3,
+ "label":             "arranged_cnt",
+ "checking_len":      4,
+ "fitting_len":       21,
+ "fitting_size":      6666,
+ "lower_threshold":    0.5,
+ "upper_threshold":    5,
+ "seed":              44,
+
+
+ "model_id":          10004,
+ "model_name":        "bhtarima_longtail_3p",
+ "output_path" : "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast.db/{path_keyword}/fc_dt={partition_dt}/model_name={partition_model_name}"
+ }

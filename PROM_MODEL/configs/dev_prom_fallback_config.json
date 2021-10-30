@@ -1,0 +1,7 @@
+{
+  "train_duration" : -180,
+  "test_duration" : 19,
+  "case_duration" : 30,
+  "fc_date_delta" : 0,
+  "output_path" : "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast_test.db/sale_forecast_new_sku_output/fc_dt={}"
+}

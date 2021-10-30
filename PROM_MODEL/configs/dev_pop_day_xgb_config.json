@@ -1,0 +1,10 @@
+{
+  "train_duration" : -540,
+  "test_duration" : 0,
+  "fc_date_delta" : 0,
+  "model_id": 10001,
+  "model_name": "xgb_baseline_3p",
+  "raw_feature_cols": "is_train,wh_id,bu_id,sku_id,cat1_name,cat2_name,brand_name,origin_price,seq_num,seq_price,day_abbr,is_work_day,is_weekend,is_holiday,is_outstock,festival_name,day_temperature,night_temperature,day_weather,night_weather,arranged_cnt,dt",
+  "features": ["cat1_name", "seq_num", "day_abbr", "is_work_day", "is_weekend", "is_holiday", "festival_name", "day_weather", "night_weather", "day_temperature", "night_temperature", "is_outstock", "year", "month", "day", "discount", "yr_wk", "his_avg", "seq_day_gap", "cnt_band", "rolling_mean_1_shift_1", "rolling_mean_3_shift_1", "rolling_mean_7_shift_1", "rolling_std_3_shift_1", "rolling_std_7_shift_1", "rolling_mean_1_shift_7", "rolling_mean_3_shift_7", "rolling_mean_7_shift_7", "rolling_std_3_shift_7", "rolling_std_7_shift_7"],
+  "output_table" : "mart_caterb2b_forecast_test.app_sale_3p_fc_baseline_day_output"
+}

@@ -1,0 +1,7 @@
+{
+  "train_duration" : -14,
+  "test_duration" : 0,
+  "fc_date_delta" : 0,
+  "feature_cols": "wh_id,bu_id,sku_id,cat1_name,cat2_name,brand_name,origin_price,price,is_cir_redu,is_csu_redu,day_abbr,is_work_day,is_weekend,is_holiday,festival_name,day_weather,night_weather,day_temperature,night_temperature,hour,cnt,total_cnt,dt,is_train",
+  "output_path" : "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast_test.db/app_caterb2b_forecast_sale_3p_rt_static_input/fc_dt={}"
+}

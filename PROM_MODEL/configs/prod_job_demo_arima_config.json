@@ -1,0 +1,4 @@
+{
+    "result_path":"tests/arima/result_data",
+    "fc_dt": "20200710"
+}

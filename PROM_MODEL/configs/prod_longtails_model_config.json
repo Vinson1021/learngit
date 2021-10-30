@@ -1,0 +1,7 @@
+{
+  "train_duration" : -720,
+  "test_duration" : 19,
+  "fc_date_delta" : 0,
+  "cat1_id" : "10021259, 10021181, 10021264",
+  "output_path" : "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast.db/app_sale_longtails_output/fc_dt={}"
+}

@@ -1,0 +1,5 @@
+{
+    "steps_per_floor": 21,
+    "input_path":"../tests/test_data/job_demo/employees",
+    "result_path":"../tests/test_data/job_demo/result_data"
+}

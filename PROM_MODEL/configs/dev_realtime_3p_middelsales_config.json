@@ -1,0 +1,8 @@
+{
+  "date_span": 31,
+  "up_threshold": 10,
+  "low_threshold": 5,
+  "model_name": "xgb_realtime_3p_mid",
+  "hive_table": "mart_caterb2b_forecast_test.app_sale_3p_highsales_hour_model",
+  "hive_path": "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast_test.db/app_sale_3p_highsales_hour_model/dt={partition_dt}/model_name={model_name}"
+}

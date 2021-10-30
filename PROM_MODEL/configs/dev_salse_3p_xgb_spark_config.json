@@ -1,0 +1,19 @@
+{
+ "train_start_dt" : "20210401",
+ "pred_len":          1 ,
+ "pred_round_number": 3,
+ "checking_len":      4,
+ "fitting_len":       21,
+ "fitting_size":      5000,
+ "lower_threshold":    0.3,
+ "upper_threshold":    5,
+ "seed":              44,
+ "forecast_step":      1,
+ "model_id":          10006,
+ "out_put_tabel_cols":["model_name","bu_id","wh_id","sku_id","model_id","today_fc_cnt","daily_fc_cnt","fc_dt"],
+ "out_put_dataframe_cols" :["bu_id","wh_id","fc_dt","sku_id","today_fc_cnt","daily_fc_cnt"],
+ "out_put_tabel_name": "app_sale_3p_fc_basic_day_output",
+ "model_name":        "sales_3p_xgb",
+ "output_path":  "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast_test.db/{path_keyword}/fc_dt={partition_dt}/model_name={partition_model_name}"
+
+  }

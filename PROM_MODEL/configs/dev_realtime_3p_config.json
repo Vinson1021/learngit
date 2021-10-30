@@ -1,0 +1,4 @@
+{
+  "date_span": 180,
+  "hive_table": "mart_caterb2b_forecast_test.app_sale_3p_highsales_hour_model"
+}

@@ -1,0 +1,13 @@
+{
+  "degradation_interval": 14,
+  "feat_tables": {
+    "mart_caterb2b_forecast.app_sale_cat1_condiment_day_input": 4002,
+    "mart_caterb2b_forecast.app_sale_cat1_drinks_day_input": 3008
+  },
+  "output_tables": [
+    "mart_caterb2b_forecast.app_forecast_sale_mlp_output_dt",
+    "mart_caterb2b_forecast.app_sale_drinks_mlp_day_output"
+  ],
+  "source": 0,
+  "rst_hive_path": "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast_test.db/app_sale_cat1_degraded_day_output/fc_dt={partition_dt}"
+}

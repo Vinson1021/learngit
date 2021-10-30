@@ -1,0 +1,10 @@
+{
+  "train_duration" : -540,
+  "test_duration" : 0,
+  "fc_date_delta" : 0,
+  "model_id": 10002,
+  "model_name": "lr_baseline_3p",
+  "raw_feature_cols": "is_train,wh_id,bu_id,sku_id,cat1_name,cat2_name,brand_name,origin_price,seq_price,day_abbr, is_work_day,is_weekend,is_holiday,festival_name,day_temperature,night_temperature,arranged_cnt,dt",
+  "features": ["wh_id", "bu_id", "sku_id", "cat1_name", "cat2_name", "discount", "day_abbr", "is_work_day", "is_weekend", "is_holiday", "festival_name", "day_temperature", "night_temperature", "month"],
+  "output_table" : "mart_caterb2b_forecast_test.app_sale_3p_fc_baseline_day_output"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+<property>
+  <name>hive.metastore.uris</name>
+  <value>thrift://hivemetastore.data.sankuai.com:9000</value>
+  <description>URI for client to contact metastore server</description>
+</property>
+<property>
+  <name>hive.metastore.sasl.enabled</name>
+  <value>true</value>
+</property>
+<property>
+  <name>hive.metastore.kerberos.principal</name>
+  <value>hive/hivemetastore.data.sankuai.com@SANKUAI.COM</value>
+</property>
+<property>
+  <name>hive.exec.max.dynamic.partitions.pernode</name>
+  <value>1000</value>
+</property>
+<property>
+  <name>hive.exec.max.dynamic.partitions</name>
+  <value>10000</value>
+</property>
+<property>
+  <name>hive.mapred.supports.subdirectories</name>
+  <value>true</value>
+</property>
+<property>
+  <name>mapreduce.input.fileinputformat.input.dir.recursive</name>
+  <value>true</value>
+</property>
+<property>
+  <name>hive.exec.orc.split.strategy</name>
+  <value>BI</value>
+</property>
+<property>
+  <name>hive.security.authorization.enabled</name>
+  <value>false</value>
+  <description>enable or disable the hive client authorization</description>
+</property>
+<property>
+  <name>hive.mt.metastore.auth.enable</name>
+  <value>true</value>
+  <description>enable or disable the hive client authorization</description>
+</property>
+<property>
+  <name>hive.mt.load.dynamic.partitions.ignore.temporary.dir</name>
+  <value>true</value>
+</property>
+</configuration>

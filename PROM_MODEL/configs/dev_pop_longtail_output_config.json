@@ -1,0 +1,12 @@
+{
+ "label_start_date" : "20210220",
+ "pred_len":          1 ,
+ "pred_round_number": 3,
+ "label":             "arranged_cnt",
+ "checking_len":      4,
+ "base_model_name":        "ses_longtail_3p",
+ "merged_model_names":        ["sales_3p_xgb","bhtarima_longtail_3p"],
+ "model_id":          10003,
+ "model_name":          "combine_longtail_3p",
+ "output_path" : "viewfs://hadoop-meituan/zw02nn45/warehouse/mart_caterb2b_forecast_test.db/{path_keyword}/fc_dt={partition_dt}/model_name={partition_model_name}"
+ }
